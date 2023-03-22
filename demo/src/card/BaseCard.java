@@ -3,6 +3,7 @@ public abstract class BaseCard {
 
     public BaseCard(String cardName){
         this.cardName = cardName;
+        System.out.println("Make new card");
     }
 
     abstract void useEffect();
